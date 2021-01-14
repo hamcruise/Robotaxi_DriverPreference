@@ -1,0 +1,31 @@
+ ! ----------------------------------------------------------------------------
+ ! Minimization problem - 41 variables, 98 constraints, 1 phase
+ ! Presolve      : 9 extractables eliminated
+ ! TimeLimit            = 5
+ ! Workers              = 3
+ ! LogPeriod            = 1,000,000
+ ! LogVerbosity         = Terse
+ ! NoOverlapInferenceLevel = Extended
+ ! TemporalRelaxation   = On
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 64.3 (before), 64.3 (after)
+ !  . Memory usage      : 758.3 kB (before), 758.3 kB (after)
+ ! Using parallel search with 3 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         41                 -
+ + New bound is 579,945
+ ! Using temporal relaxation.
+ *       621,214    7,740  0.09s        3      (gap is 6.64%)
+         621,214   40,074          2    1   F        -
+ + New bound is 612,045 (gap is 1.48%)
+ ! ----------------------------------------------------------------------------
+ ! Search terminated by limit, 1 solution found.
+ ! Best objective         : 621,214 (gap is 1.48%)
+ ! Best bound             : 612,045
+ ! Number of branches     : 450,538
+ ! Number of fails        : 219,875
+ ! Total memory usage     : 7.2 MB (6.3 MB CP Optimizer + 0.9 MB Concert)
+ ! Time spent in solve    : 5.00s (5.00s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 90,053.6
+ ! ----------------------------------------------------------------------------
